@@ -22,3 +22,16 @@ The solution would be that when we initialize the W with a random numbers, we mu
 
 
 In this excersize we want to investigate the effect of initialization methodes to the final results of Neural Networks.  Optimized initialization can speed up the gradient descent optimization process and reduce the error. 
+
+
+# Regularization Techniques
+One of the most common problem data science professionals face is to avoid overfitting. Regularization is a technique which makes slight modifications to the learning algorithm such that the model generalizes better. This in turn improves the model’s performance on the unseen data as well.
+
+L2 & L1 regularization
+L1 and L2 are the most common types of regularization. These update the general cost function by adding another term known as the regularization term.
+
+Cost function = Loss (say, binary cross entropy) + Regularization term
+
+Due to the addition of this regularization term, the values of weight matrices decrease because it assumes that a neural network with smaller weight matrices leads to simpler models. Therefore, it will also reduce overfitting to quite an extent.
+
+However, this regularization term differs in L1 and L2.
