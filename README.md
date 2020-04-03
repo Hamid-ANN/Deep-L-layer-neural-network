@@ -1,5 +1,5 @@
 # Deep Neural Network for Classification
-Summary of the Deep learning code in Andrew Ng's course  w<sub>1<sub>
+Summary of the Deep learning Andrew Ng's course
 
 This is a classification example by using of deep neural network. In the previous example we made a simple model by Logistic Regression as a Neural Network with 70 percent accuracy. Know we want to improve the model. This is a classification problem with a result of cat and non-cat images.
 
@@ -35,3 +35,15 @@ Cost function = Loss (say, binary cross entropy) + Regularization term
 Due to the addition of this regularization term, the values of weight matrices decrease because it assumes that a neural network with smaller weight matrices leads to simpler models. Therefore, it will also reduce overfitting to quite an extent.
 
 However, this regularization term differs in L1 and L2.
+
+
+# Beyond Gradient Descent
+1 - Gradient Descent
+2 - Mini-Batch Gradient descent
+By deviding the data set into the smaller batches we can faster the traning process
+3 - Momentum
+Momentum takes into account the past gradients to smooth out the update (specially useful for mini-batch). We will store the 'direction' of the previous gradients in the variable. Formally, this will be the exponentially weighted average of the gradient on previous steps
+4 - Adam
+Adam is one of the most effective optimization algorithms for training neural networks. It combines ideas from RMSProp (described in lecture) and Momentum. 
+
+
