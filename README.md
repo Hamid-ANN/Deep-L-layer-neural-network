@@ -39,10 +39,14 @@ However, this regularization term differs in L1 and L2.
 
 # Beyond Gradient Descent
 1 - Gradient Descent
+
 2 - Mini-Batch Gradient descent
+
 By deviding the data set into the smaller batches we can faster the traning process
+
 3 - Momentum
 Momentum takes into account the past gradients to smooth out the update (specially useful for mini-batch). We will store the 'direction' of the previous gradients in the variable. Formally, this will be the exponentially weighted average of the gradient on previous steps
+
 4 - Adam
 Adam is one of the most effective optimization algorithms for training neural networks. It combines ideas from RMSProp (described in lecture) and Momentum. 
 
