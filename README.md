@@ -20,7 +20,6 @@ z=W<sub>1</sub>X<sub>1</sub> + W<sub>2</sub>X<sub>2</sub>+ W<sub>3</sub>X<sub>3<
 To  keep z value small we need to use smaller W. Therefore, it is better when the variance of W is eqoual to 1/n .
 The solution would be that when we initialize the W with a random numbers, we multiplyit with specific factors.
 
-
 In this excersize we want to investigate the effect of initialization methodes to the final results of Neural Networks.  Optimized initialization can speed up the gradient descent optimization process and reduce the error. 
 
 
