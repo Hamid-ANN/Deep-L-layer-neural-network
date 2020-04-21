@@ -11,6 +11,7 @@ Two possible models
 At the first part, we will write a code which is composed of 2 hidden layers. At the first layer we have used the RELU activation function and at the seccond layer we used the Sigmoid to produce the classification results. Then we expand this code to L number of hidden layers. We want to see does accucy increases by increasing of the number of layers or not?
 
 
+
 # Effect of initialization on the convergence of a Deep Network
 For a case of a large number of Weights, it is natural that Z would be really lagre.
 
