@@ -12,6 +12,7 @@ At the first part, we will write a code which is composed of 2 hidden layers. At
 
 
 
+
 # Effect of initialization on the convergence of a Deep Network
 For a case of a large number of Weights, it is natural that Z would be really lagre.
 
