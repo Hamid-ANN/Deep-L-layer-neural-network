@@ -1,6 +1,7 @@
 # Deep Neural Network for Classification
 Summary of the Deep learning Andrew Ng's course
 
+
 This is a classification example by using of deep neural network. In the previous example we made a simple model by Logistic Regression as a Neural Network with 70 percent accuracy. Know we want to improve the model. This is a classification problem with a result of cat and non-cat images.
 
 Two possible models
