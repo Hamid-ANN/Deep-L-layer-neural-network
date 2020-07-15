@@ -25,6 +25,8 @@ The solution would be that when we initialize the W with a random numbers, we mu
 In this excersize we want to investigate the effect of initialization methodes to the final results of Neural Networks.  Optimized initialization can speed up the gradient descent optimization process and reduce the error. 
 
 
+
+
 # Regularization Techniques
 One of the most common problem data science professionals face is to avoid overfitting. Regularization is a technique which makes slight modifications to the learning algorithm such that the model generalizes better. This in turn improves the model’s performance on the unseen data as well.
 
